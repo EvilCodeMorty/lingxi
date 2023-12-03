@@ -18,7 +18,5 @@
 // MYSQL_PORT=
 // # 数据库地址;
 // MYSQL_HOST=localhost
-// # 数据库类型;
-// MYSQL_TYPE=mysql
 // # token配置;
 // JWT_SECRET=
