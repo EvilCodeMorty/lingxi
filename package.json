@@ -1,0 +1,51 @@
+{
+  "name": "lingxi",
+  "version": "1.0.0",
+  "description": "**这是一个基于 Koa 和 MySQL 构建的跨多领域的后端系统，旨在为用户提供便捷的互联网通道和社交,我们为商家提供了用户管理、商品管理和订单管理等功能，同时提供可视化分析店铺情况的工具。**",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "CodeMorty",
+  "license": "MIT",
+  "devDependencies": {
+    "@koa/router": "^12.0.0",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/koa-logger": "^3.1.2",
+    "@types/request-ip": "^0.0.38",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "module": "module",
+  "dependencies": {
+    "@types/koa__router": "^12.0.0",
+    "@types/nodemailer": "^6.4.8",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.1",
+    "koa-body": "^6.0.1",
+    "koa-logger": "^3.2.1",
+    "mysql2": "^3.5.2",
+    "nodemailer": "^6.9.4",
+    "request-ip": "^3.3.0",
+    "sequelize": "^6.32.1",
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1",
+    "winston": "^3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeMorty1211/lingxi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeMorty1211/lingxi/issues"
+  },
+  "homepage": "https://github.com/CodeMorty1211/lingxi#readme"
+}
